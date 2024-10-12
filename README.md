@@ -3,7 +3,7 @@
 Ce répertoire contient le matériel pour le cours de "Data analysis" 
 ## Installation
 
-1. Créez un compte Github et générez un `fork` du répertoire [Data](https://github.com/melataguia/data). Votre version du répertoire se trouvera alors à l'adresse `https://github.com/<YOUR-GITHUB-ID>/tac`
+1. Créez un compte Github et générez un `fork` du répertoire [Data](https://github.com/melataguia/data). Votre version du répertoire se trouvera alors à l'adresse `https://github.com/<YOUR-GITHUB-ID>/data`
 2. Téléchargez et installez une version récente de [Python](https://www.python.org/downloads/) (>= 3.9)
     - !! Pour les utilisateurs Windows, au moment de l'installation, cochez la case "Add Python 3.XX to PATH" et préférez installer Python à la racine du disque (C:\Python310) via le custom install.
     - !! Si votre ordinateur ne supporte pas les versions récentes de Python, vous pouvez utiliser une machine virtuelle Docker. Vous trouverez les instructions [ici](./Installation_Docker.md)
@@ -33,7 +33,7 @@ pip install virtualenv
 python -m venv tac_venv
 .\tac_venv\Scripts\activate
 pip install --upgrade pip wheel setuptools
-pip install -r requirements.txt
+pip install -r requirements.txt --upgrade
 python -m spacy download fr_core_news_md
 ```
 
