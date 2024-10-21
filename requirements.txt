@@ -4,7 +4,6 @@ SPARQLWrapper
 beautifulsoup4
 lxml
 textblob
-textract
 spacy
 textblob_fr
 langid
